@@ -12,7 +12,7 @@ if(url == 'https://api-ghostxcode7.herokuapp.com') throw console.log(color('Cek 
 var db = monk(url);
 
 db.then(() => {
-  console.log(color('Connected correctly to server, ZhirrrGanss','green'))
+  console.log(color('Connected correctly to server, zhirr','green'))
 })
 .catch ((e) => {
 	console.log(color('Error : '+ e +'\n\nGagal connect ke database, \ncek configurasi database apakah Connection URL sudah benar','red'))
